@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bobby_test_apps/static/css/main.7dc75200.css",
+    "main.js": "/bobby_test_apps/static/js/main.7c957579.js",
+    "static/js/787.7c7b03de.chunk.js": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js",
+    "static/media/logo.svg": "/bobby_test_apps/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/bobby_test_apps/index.html",
+    "main.7dc75200.css.map": "/bobby_test_apps/static/css/main.7dc75200.css.map",
+    "main.7c957579.js.map": "/bobby_test_apps/static/js/main.7c957579.js.map",
+    "787.7c7b03de.chunk.js.map": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc75200.css",
+    "static/js/main.7c957579.js"
+  ]
+}
