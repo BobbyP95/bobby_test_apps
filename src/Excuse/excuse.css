@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@400;500;700&display=swap');
+.excuse-div img{
+    margin-top:50px;
+}
+
+.excuse-div button{
+    color: rgb(0, 195, 255);
+    background-color: transparent;
+    border: 2px solid rgb(0, 150, 196);
+    font-size: 30px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.excuse-div button:hover{
+    box-shadow: 1px 1px 10px rgb(1, 225, 255);
+}
+
+.excuse-div h1{
+    text-transform: capitalize;
+    color:  rgb(0, 234, 255);
+    font-family: Ubuntu;
+    font-weight: normal
+}
+
+.excuse-div h3{
+    font-family: marck script;
+    font-weight: normal;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 4vw;
+}
+
+.error-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.error-div h1{
+    margin-top: 200px;
+    color: rgb(5, 56, 118);
+    font-size: 5vw;
+}
+
