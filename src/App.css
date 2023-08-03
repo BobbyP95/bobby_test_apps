@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  :root{
+    --lm_Dark_blue_txt:hsl(200, 15%, 8%);
+    --lm_Light_Gray_bg:hsl(0, 0%, 95%);
+    --lm_Dark_Gray_inp:hsl(0, 0%, 52%);
+    --dm_Dark_Blue_elm:hsl(209, 23%, 22%);
+    --dm_Very_Dark_Blue_bg:hsl(207, 26%, 17%);
+    --white: hsl(0, 0%, 100%);
   }
+body{
+    margin: 0px;
+  
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h3{
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
+.app{
+  height: 100vh}
+
+a{
+  text-decoration: none;
+  font-style: none;
+}
+
+/* ------------------LIGHT MODE----------------------- */
+
+.light{
+  background-color: var(--lm_Light_Gray_bg);
+  color: var(--lm_Dark_blue_txt);
+}
+.light button{
+  background-color: white;
+  transition: all 0.15s;
+}
+.light input{
+  color: var(--lm_Dark_Gray_inp);
+}
+.light .shadow{
+    background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.light a{
+    color: var(--lm_Dark_blue_txt);
+}
+.light button:hover{
+  background-color: var(--dm_Dark_Blue_elm);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.light button:active{
+  color: var(--dm_Very_Dark_Blue_bg);
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+/* --------------------DARK MODE ----------------- */
+
+.dark{
+  background-color: var(--dm_Very_Dark_Blue_bg);
+  color: var(--white);
+}
+
+.dark input{
+  color: var(--lm_Dark_Gray);
+}
+
+.dark button{
+  background-color: var(--dm_Dark_Blue_elm);
+  color: var(--white);
+  transition: all 0.15s;
+}
+
+.dark .shadow{
+  background-color: var(--dm_Dark_Blue_elm);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  color: white;
+}
+.dark a{
+  color: var(--white);
+}
+
+.dark button:hover{
+  background-color:white;
+  color:var(--dm_Very_Dark_Blue_bg)
+}
+
+.dark button:active{
+  color: white;
+  background-color: var(--dm_Very_Dark_Blue_bg);
+}
+.rise{
+  transition: all 0.3s;
+  z-index: 20;
+}
+
+.rise:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dm_Dark_Blue_elm);
+  border-radius: 100vw;
+}
+
+.light ::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 60%);
+  border-radius:100vw
+}
+
+@supports( scrollbar-color: red blue){
+  *{
+    scrollbar-color: hsl(0, 0%, 60%) white;
+    scrollbar-width: thin;
   }
 }

@@ -6,7 +6,8 @@ import {Excuse} from './Excuse/Excuse';
 import {Books} from './Books/Books';
 import { Welcome } from "./Welcome/Welcome";
 import { Profile } from "./Profile/Profile";
-
+import Countries from './Countries/Countries';
+import CountryDetail from './Countries/CountryDetail/CountryDetail';
 // react hooks
 import {useState, createContext} from 'react';
 
@@ -42,26 +43,43 @@ const client = new QueryClient({
   },
 });
 
+
+const browserData= [window.localStorage.getItem('localChosen'), window.localStorage.getItem('localNations')]
+
 function App() {
-  
+  const [filterValue, setFilterValue] = useState('All')
+  const [theme, setTheme] = useState('dark')
+  const [searchInput, setSearchInput] = useState('')
+  const [api, setApi] = useState('https://restcountries.com/v3.1/all')
+  const [chosen, setChosen] = useState(JSON.parse(browserData[0]))
+  const [nationsData, setNationsData] = useState()
+
+
+  const toggle= ()=>{
+    theme === 'light'?setTheme('dark') : setTheme('light')
+  }
   const [user, setUser] = useState(defaultUser);
+
+
   return (
-    <>
-        <MainContext.Provider value={{user, setUser}}>
-        <QueryClientProvider client={client}>
-          <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Welcome />} />
-            <Route path="/books" element={<Books />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/excuse" element={<Excuse/>} />
-          </Routes>
-        </Router>
-        </QueryClientProvider>
+    <div className={theme}>
+        <MainContext.Provider value={{user, setUser,filterValue,theme, setFilterValue,api,setApi,setSearchInput,searchInput,chosen,setChosen,setNationsData,nationsData}}>
+          <QueryClientProvider client={client}>
+            <Router>
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Welcome />} />
+                <Route path="/books" element={<Books />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/excuse" element={<Excuse/>} />
+                <Route path="/countries" element={<Countries/>} />
+                <Route path="/count" element={<CountryDetail/>} />
+              </Routes>
+            </Router>
+          </QueryClientProvider>
 
         </MainContext.Provider>
-    </>
+    </div>
   );
 }
 

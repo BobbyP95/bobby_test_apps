@@ -1,0 +1,153 @@
+
+.detail-div{
+    margin: 0px 5.55vw;
+    height: 100vh;
+    cursor: pointer;
+
+}
+
+.detail-div div{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+
+button{
+    width:136px;
+    height:40px;
+    border-style: none;
+    border-radius: 6px ;
+    margin-top: 160px ;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+
+
+.big-flag-div img{
+    width:39vw ;
+    max-width: 559.715px;
+   
+
+    /* height: 483.169px; */
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.main-detail-div{
+    
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    margin-left: 8.333vw;
+}
+.info-div{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.info-div div{
+    flex-direction: column;
+}
+
+.info-div h3{
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0px 0px ;
+}
+
+.Boarder-info-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Boarder-info-div div{
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.Boarder-info-div div button{
+    max-width: fit-content;
+    min-width: 96px;
+    
+    align-items: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.info-left{
+    margin-right: 0px 20px
+}
+.info-div .info-left h3{
+      margin-right: 10px;
+}
+
+.Boarder-info-div div h3{
+  font-size: 14px;
+  font-family: Nunito Sans;;
+  font-weight: 100;
+  /* margin: 0px 10px; */
+  width:100%;
+  vertical-align: middle;
+  /* margin-right: 10px; */
+  /* background-color: rgb(122, 84, 35); */
+}
+
+#languages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#languages h3{
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+/* -----------------------------------Phone mode */
+@media screen and (max-width: 580px) {
+    .upper-detail-div{
+        flex-direction: column;
+    }
+    .detail-div div{
+        /* justify-content: center; */
+        margin: auto;
+        width: 100%;
+    }
+    button{
+        width:104px;
+        height:40px;
+        border-radius: 2px ;
+        margin-top: 120px ;
+        margin-bottom: 64px;
+    }
+    
+    
+    .big-flag-div img{
+        width: 100%;
+        height: 275.924px;
+        border-radius: 5px;
+    }
+    
+    .info-div{
+        flex-direction: column;
+    }
+    .info-div div{
+        margin-bottom: 32px;
+    }
+
+    .info-div h3{
+        font-size: 14px;
+        font-weight: 300;
+    }
+ 
+  }
