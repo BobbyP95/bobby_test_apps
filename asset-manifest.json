@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bobby_test_apps/static/css/main.3c21a5f3.css",
+    "main.css": "/bobby_test_apps/static/css/main.c5c216df.css",
     "main.js": "/bobby_test_apps/static/js/main.ad0bcd51.js",
     "static/js/787.7c7b03de.chunk.js": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js",
     "static/media/background.png": "/bobby_test_apps/static/media/background.9ecf3308134ec0924534.png",
@@ -18,12 +18,12 @@
     "static/media/illustrator.svg": "/bobby_test_apps/static/media/illustrator.9ce4377523ed547dcaaa2feb1a52e22d.svg",
     "index.html": "/bobby_test_apps/index.html",
     "static/media/css3.svg": "/bobby_test_apps/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
-    "main.3c21a5f3.css.map": "/bobby_test_apps/static/css/main.3c21a5f3.css.map",
+    "main.c5c216df.css.map": "/bobby_test_apps/static/css/main.c5c216df.css.map",
     "main.ad0bcd51.js.map": "/bobby_test_apps/static/js/main.ad0bcd51.js.map",
     "787.7c7b03de.chunk.js.map": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c21a5f3.css",
+    "static/css/main.c5c216df.css",
     "static/js/main.ad0bcd51.js"
   ]
 }
