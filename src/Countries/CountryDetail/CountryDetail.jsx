@@ -83,7 +83,7 @@ const CountryDetail = () => {
     <div className={theme}>
       <div className={'detail-div'}>
         <Link to='/countries'>
-          <button className='rise'>Back</button>
+          <button className='rise back_button'>Back</button>
         </Link>
 
         <div className='upper-detail-div'>

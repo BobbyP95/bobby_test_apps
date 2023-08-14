@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Axios from 'axios';
-import logo from '../logo.svg';
+
 import './excuse.css'
 import {useQuery} from '@tanstack/react-query'
 
@@ -22,7 +22,7 @@ const {data,isError,isLoading,refetch} = useQuery(['01excuse'],()=>{
 
 useEffect(()=>{
     refetch()
-},[type,])
+},[type,refetch])
 
 if (isLoading){
     return(  <div className="excuse-div error-div">
@@ -36,12 +36,12 @@ if (isError){
 }
 
   return (
-    <div className="App excuse-div">
+    <div className="excuse-div">
     <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div className=''>
         <div >
-            <button onClick={()=>setType('gaming')}>Gaming</button>
+            <button  onClick={()=>setType('gaming')}>Gaming</button>
             <button onClick={()=>setType('developers')}>Developers</button>
             <button onClick={()=>setType('office')}>Office</button>
             <button onClick={()=>setType('funny')}>Funny </button>

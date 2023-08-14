@@ -10,7 +10,7 @@ import Content from './Content/Content'
 export default function Countries() {
     const {theme} = useContext(MainContext)
   return (
-    <div>
+    <div className='countries'>
         <FilterAndSearch theme={theme}/>
         <Content/>
     </div>

@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap');
 
   :root{
-    --lm_Dark_blue_txt:hsl(200, 15%, 8%);
+    --lm_Dark_blue_txt:hsl(199, 85%, 18%);
     --lm_Light_Gray_bg:hsl(0, 0%, 95%);
     --lm_Dark_Gray_inp:hsl(0, 0%, 52%);
     --dm_Dark_Blue_elm:hsl(209, 23%, 22%);
@@ -58,7 +58,13 @@ a{
   color: var(--dm_Very_Dark_Blue_bg);
   background-color: white;
 }
+.light .bottom-div{
+  background-color: white;
+}
 
+.light .narrow-menu{
+  background-color: white;
+}
 
 /* --------------------DARK MODE ----------------- */
 
@@ -105,13 +111,22 @@ a{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
+.dark .bottom-div{
+  background-color: var(--dm_Dark_Blue_elm);
+}
 
+.dark .narrow-menu{
+  background-color: var(--dm_Dark_Blue_elm);
+}
+/* .dark .bottom-div p{
+  background-color: var(--dm_Dark_Blue_elm);
+} */
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--dm_Dark_Blue_elm);
+  background: white;
   border-radius: 100vw;
 }
 

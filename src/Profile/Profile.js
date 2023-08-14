@@ -7,7 +7,7 @@ import {yupResolver} from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 
 export const Profile = () => {
-    const [name, setName] = useState('')
+    const [name] = useState('')
 
     const {setUser,user} = useContext(MainContext)
 
@@ -15,7 +15,7 @@ useEffect(() => {
     
     update(name,user)
 
-},[user])
+},[user,name])
     
     // ...........REACT FORM HOOKS.................................
     // react-hook-form  || yup || @hookForm/resolvers

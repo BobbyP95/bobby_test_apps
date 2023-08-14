@@ -97,7 +97,7 @@ export const Books = ({}) => {
           />
         </div>
 
-        <button
+        <button className="add_book"
           onClick={() => {
              add();
           }}

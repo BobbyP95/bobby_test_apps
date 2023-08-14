@@ -8,7 +8,7 @@ export const Book = ({id, coverPic, title, author, del}) => {
       <h6><em>By</em></h6>
       <h4 className='book_author'>{author}</h4>
 
-      <button onClick={()=>del(id)}>Remove</button>
+      <button className='del_book' onClick={()=>del(id)}>Remove</button>
     </div>
   )
 }

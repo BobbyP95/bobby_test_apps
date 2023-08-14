@@ -23,7 +23,7 @@ const Content = () => {
     const cont = document.getElementsByClassName("one-country").length
     setContent(cont)
 
-  },[data,filterValue,searchInput])
+  },[data,filterValue,searchInput,setNationsData])
  
 
 

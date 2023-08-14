@@ -23,7 +23,7 @@ button{
     width: 100px;
     margin: auto;
     cursor: pointer;
-    color: aliceblue;
+    
     border-radius: 20px;
     transition: all 0.2s ease-in-out;
     font-weight: 600;
@@ -54,7 +54,7 @@ button:active{
     align-items: center;
 }
 
-.book_div h2,h4, h6{
+.book_div{
     margin: 2px 0px;
     text-transform: uppercase;
     text-align: center;
@@ -68,7 +68,7 @@ button:active{
 
 .books-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
