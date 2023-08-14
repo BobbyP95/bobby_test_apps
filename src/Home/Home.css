@@ -91,14 +91,14 @@
 
 }
 .contactIcon{
-
+    width: 60px;
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
 }
 
 .contactIcon:hover{
     /* fill: aqua; */
-    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.5);
+    color: gold;
     /* background-color: transparent; */
 }
 
@@ -169,9 +169,6 @@
     margin-top: 2px;
 }
 
-.dp{
-
-}
 .copyright{
     width: fit-content;
     margin: auto;

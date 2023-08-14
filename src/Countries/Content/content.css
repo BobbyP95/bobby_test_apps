@@ -81,8 +81,9 @@
        .search-div{
         flex-direction: column;
         justify-content:flex-start;
+        align-items: center;
         margin: auto 8vw;
-        margin-top: 0px;
+        margin-top: 10vh;
        } 
        .search-div .filter-div{
         margin-top: 40px;
