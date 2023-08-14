@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/bobby_test_apps/static/css/main.a3f08d3f.css",
-    "main.js": "/bobby_test_apps/static/js/main.41374158.js",
+    "main.css": "/bobby_test_apps/static/css/main.d8643450.css",
+    "main.js": "/bobby_test_apps/static/js/main.b48779a6.js",
     "static/js/787.7c7b03de.chunk.js": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js",
-    "static/media/logo.svg": "/bobby_test_apps/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.png": "/bobby_test_apps/static/media/background.9ecf3308134ec0924534.png",
+    "static/media/bob.png": "/bobby_test_apps/static/media/bob.31680694f8acbfa6910a.png",
+    "static/media/responsive web.png": "/bobby_test_apps/static/media/responsive web.e37c00de843eae767563.png",
+    "static/media/paint.png": "/bobby_test_apps/static/media/paint.9ca53a5b988f8f04a7d6.png",
+    "static/media/Bobby Bruce Appiah_Photo .jpg": "/bobby_test_apps/static/media/Bobby Bruce Appiah_Photo .5b9992d21d7dd46dd52b.jpg",
+    "static/media/mysql.svg": "/bobby_test_apps/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
+    "static/media/react.svg": "/bobby_test_apps/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
+    "static/media/node.svg": "/bobby_test_apps/static/media/node.a7f2ccf30eed3e5878a2ba1e6be108a2.svg",
+    "static/media/photoshop.svg": "/bobby_test_apps/static/media/photoshop.c199ca378272c15e75ea39dd84f838de.svg",
+    "static/media/typescript.svg": "/bobby_test_apps/static/media/typescript.3ca8a525abd0f8887aae0089dc4ed25c.svg",
+    "static/media/js.svg": "/bobby_test_apps/static/media/js.fef7215d0d3e578f01ad70419d4c4308.svg",
+    "static/media/html.svg": "/bobby_test_apps/static/media/html.e248da514edac2a2a66bde8fa0166701.svg",
+    "static/media/illustrator.svg": "/bobby_test_apps/static/media/illustrator.9ce4377523ed547dcaaa2feb1a52e22d.svg",
     "index.html": "/bobby_test_apps/index.html",
-    "main.a3f08d3f.css.map": "/bobby_test_apps/static/css/main.a3f08d3f.css.map",
-    "main.41374158.js.map": "/bobby_test_apps/static/js/main.41374158.js.map",
+    "static/media/css3.svg": "/bobby_test_apps/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "main.d8643450.css.map": "/bobby_test_apps/static/css/main.d8643450.css.map",
+    "main.b48779a6.js.map": "/bobby_test_apps/static/js/main.b48779a6.js.map",
     "787.7c7b03de.chunk.js.map": "/bobby_test_apps/static/js/787.7c7b03de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3f08d3f.css",
-    "static/js/main.41374158.js"
+    "static/css/main.d8643450.css",
+    "static/js/main.b48779a6.js"
   ]
 }
