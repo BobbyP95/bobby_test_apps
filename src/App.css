@@ -10,13 +10,17 @@
     --white: hsl(0, 0%, 100%);
   }
 body{
+    width: 100%;
+    height: 100vh;
     margin: 0px;
-  
+    position:static;
     font-size: 16px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    touch-action: none ;
+    touch-action:pan-y;
 }
 h3{
   font-size: 16px;
