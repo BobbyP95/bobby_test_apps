@@ -9,7 +9,7 @@
     margin: auto;
     /* margin-left: 5vw; */
     background-image: url("/src/Home/background.png");
-    
+    height: 100vh;
 }
 
 
