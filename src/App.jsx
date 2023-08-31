@@ -91,8 +91,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/books" element={<Books />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/excuse" element={<Excuse />} />
+              {/* <Route path="/profile" element={<Profile />} /> */}
+              {/* <Route path="/excuse" element={<Excuse />} /> */}
               <Route path="/countries" element={<Countries />} />
               <Route path="/count" element={<CountryDetail />} />
             </Routes>

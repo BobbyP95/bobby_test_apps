@@ -4,7 +4,7 @@
     cursor: pointer;
     top: 0px;
     left: 1px;
-
+    z-index: 39;
 }
 .logo img{
     height: 60px;

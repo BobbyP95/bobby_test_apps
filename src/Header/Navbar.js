@@ -27,11 +27,11 @@ export const Navbar = (props) => {
     <div className={'nav-bar'}>
         <div className='wide-menu'>
           <Link to='/'> Home</Link>
-          <Link to='/excuse'> Excuse</Link>
+          {/* <Link to='/excuse'> Excuse</Link> */}
           <Link to='/books'> Books</Link>
           {/* <Link to='/country'> Country</Link> */}
           <Link to='/countries'> Countries</Link>
-          <Link to='/profile'> Profile</Link>
+          {/* <Link to='/profile'> Profile</Link> */}
         </div>
        {mobileMenu === 'off'?<></>: <div className={theme}>
           <div className='narrow-menu'>

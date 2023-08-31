@@ -2,12 +2,15 @@
 .detail-div{
     margin: 0px 5.55vw;
     cursor: pointer;
+    padding-bottom: 8vh;
+    height: 100vh;
 
 }
 
 .detail-div div{
     display: flex;
     /* flex-wrap: wrap; */
+    
 }
 
 
@@ -31,6 +34,7 @@
     /* height: 483.169px; */
     overflow:hidden;
     border-radius: 10px;
+
 }
 
 .main-detail-div{
@@ -114,6 +118,10 @@
 
 /* -----------------------------------Phone mode */
 @media screen and (max-width: 580px) {
+    
+    .detail-div {
+        height: 100%;
+    }
     .upper-detail-div{
         flex-direction: column;
     }
